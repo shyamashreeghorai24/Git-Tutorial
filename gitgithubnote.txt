@@ -35,6 +35,9 @@ git checkout master
 git log --oneline --all (to see all the branch with commit)
 git log --oneline -all --graph
 git branch -D helper
+git branch helper2
+git checkout master
+git marged helper2
 
 
 
