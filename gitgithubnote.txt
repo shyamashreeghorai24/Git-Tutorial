@@ -37,7 +37,7 @@ git log --oneline -all --graph
 git branch -D helper
 git branch helper2
 git checkout master
-git marged helper2
+git merge helper2
 
 
 
