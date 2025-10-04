@@ -1,0 +1,29 @@
+Git is a Version Control System or Source Code Manager (VCS/SCM).
+need to learn
+i) Bug fixing and version 
+ii) Collaboration
+iii) Nonlinear development
+git config --global user.name shyamashreeghorai24
+git config --global user.email aparnaghorai17@gmail
+To check
+git config --global user.name
+git config --global user.email
+
+Workspace untracked--> Staging tracked--> Local Repo commit--> Remote Repo push
+git status
+git init
+git config --global --add safe.directory "D:/USB Drive/Git_Github"
+git add .
+git commit -m "this is my first commit"
+git push origin main
+//after adding if you want to rollback
+git restore --staged first.py
+//to see the commit
+git log
+git log --oneline
+git show 4771c7c
+git log --stat
+git log -p
+git diff(changes made within staging area before commit)
+
+
