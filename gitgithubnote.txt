@@ -32,5 +32,14 @@ git branch helper 4771c7c ( to create a branch from any specific commit)
 git branch
 git checkout helper
 git checkout master
+git log --oneline --all (to see all the branch with commit)
+git log --oneline -all --graph
+git branch -D helper
+
+
+
+
+
+
 
 
